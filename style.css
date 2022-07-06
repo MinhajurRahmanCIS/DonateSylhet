@@ -104,7 +104,10 @@ body{
     text-align: center;
     font-size: 22px;
 }
-
+.DonateInfo{
+    color: silver;
+    font-weight: lighter;
+}
 .Plan{
     display: flex;
 }
@@ -135,4 +138,29 @@ body{
 }
 #PlanSideColor{
     background-color: rgba(0, 255, 200, 0.100);
+}
+
+.AboutUs{
+    display: flex;
+    margin-top: 5%;
+}
+
+.AboutSide{
+    width: 50%;
+    margin-left: 5%;
+}
+.AboutTitle{
+    font-size: 70px;
+}
+.AboutInfo{
+    color: dimgray;
+    font-size: 20px;
+    text-align: justify;
+}
+.AboutSide{
+   width: 100%;
+}
+
+.AboutSide img{
+    height: 80%;
 }
