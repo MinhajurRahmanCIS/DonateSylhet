@@ -1,3 +1,88 @@
 body{
+    font-family: 'Gentium Book Plus', serif;
     margin: 0;
+}
+
+.Banner{
+   background-image: url(image/Banner.png);
+   background-repeat: no-repeat;
+   display: flex;
+  
+}
+
+.TopBanner{
+    width: 100%;
+    text-align: center;
+}
+
+.BannerTitle {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.BannerInfo {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+   
+}
+.DonateNowLink{
+    font-size: 20px;
+    color: white;
+    padding: 20px 30px;
+    background-color: orangered;
+    border-radius: 35px;
+    text-decoration: none;
+}
+
+
+
+.TKtitle{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.TKinfo{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+
+.TkContainer{
+    display: flex;
+    margin-top: 3%;
+}
+.TkSide{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(136, 134, 134);
+    font-weight: 700;
+    margin-left: 8.7%;
+   
+    padding: 0 2%;
+    background-color: rgba(220, 220, 220, 0.351);
+    border-radius: 5px;
+}
+#TkDonate{
+    color: orangered;
+    background-color: rgba(234, 103, 103, 0.291);
+    border: 3px solid orangered;
+}
+
+.TkDonateNOW{
+    margin-top: 3%;
+    text-align: center;
+
+}
+.Amount{
+    border: 3px solid silver;
+    width: 20%;
+    padding: 10px;
+}
+.line{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
 }
