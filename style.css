@@ -86,3 +86,53 @@ body{
     margin-bottom: 2%;
     width: 90%;
 }
+.TkDonateNOW h3{
+    color: silver;
+}
+
+.DonatePlan{
+    margin-top: 5%;
+}
+.DonateTitle{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.DonateInfo{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Plan{
+    display: flex;
+}
+
+.PlanSide{
+    margin-top: 2%;
+    width: 25%;
+    margin-left: 4.5%;
+    padding: 20px;
+    background-color: rgba(0, 162, 255, 0.100);
+    border-radius: 15px;
+}
+
+.PlanSide img{
+    margin-top: 5%;
+}
+.PlanTitle{
+    font-size: 30px;
+    font-weight: 900;
+}
+.PlanInfo{
+    color: rgb(59, 59, 59);
+    text-align: justify;
+    font-weight: 700;
+}
+#PlanColor{
+    background-color: rgba(0, 208, 255, 0.100);
+}
+#PlanSideColor{
+    background-color: rgba(0, 255, 200, 0.100);
+}
